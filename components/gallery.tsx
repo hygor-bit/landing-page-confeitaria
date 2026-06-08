@@ -6,7 +6,7 @@ const GALLERY = [
   { src: '/images/panetone.png', alt: 'panetones diversos', span: '' },
   { src: '/images/bolo.caseiro.png', alt: 'Bolo caseiro artesanal', span: '' },
   { src: '/images/kit.png', alt: 'Kit presente com doces artesanais', span: '' },
-  { src: '/images/pedaco.png', alt: 'Pedaco de bolo', span: 'lg:row-span-2' },
+  { src: '/images/bolo.ninho.png', alt: 'Pedaço de bolo', span: '' },
   { src: '/images/peda.png', alt: 'Pedaço de bolo', span: '' },
 ]
 
