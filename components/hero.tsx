@@ -9,7 +9,7 @@ export function Hero() {
       id="inicio"
       className="relative overflow-hidden bg-background pt-28 lg:pt-32"
     >
-      <div className="mx-auto grid max-w-7xl items-center gap-12 px-6 pb-16 pt-10 lg:grid-cols-2 lg:gap-8 lg:px-8 lg:pb-28">
+      <div className="mx-auto grid max-w-7xl items-center gap-12 px-6 pb-16 pt-10 grid-cols-1 lg:grid-cols-2 lg:gap-8 lg:px-8 lg:pb-28">
         <div className="flex flex-col items-start gap-6">
           <Reveal>
             <span className="inline-flex items-center gap-2 rounded-full border border-primary/30 bg-primary/10 px-4 py-1.5 text-xs font-medium uppercase tracking-[0.2em] text-primary">
@@ -23,7 +23,7 @@ export function Hero() {
             </h1>
           </Reveal>
 
-          <Reveal delay={200}>
+          <Reveal delay={200} className="relative order-1 lg:order-2">
             <p className="max-w-lg text-pretty text-base leading-relaxed text-muted-foreground sm:text-lg">
               Bolos, doces e sobremesas artesanais preparados com ingredientes
               selecionados e muito carinho.

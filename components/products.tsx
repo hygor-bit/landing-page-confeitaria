@@ -60,7 +60,7 @@ export function Products() {
           <Reveal delay={200}>
             <p className="mt-4 text-pretty leading-relaxed text-muted-foreground">
               Cada produto é feito sob encomenda, com ingredientes selecionados e
-              o cuidado que o seu momento especial merece. se,pre viufsfp fr bobgerd vp, vstimnh0 r sdo,9ogsvsojsddd
+              o cuidado que o seu momento especial merece.
             </p>
           </Reveal>
         </div>
